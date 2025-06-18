@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer utilities {
+    #custom::-webkit-file-upload-button {
+      display: none; 
+      text-align: center;/* Hide the default 'Choose File' button on WebKit browsers */
+    }
+  
+    #custom::file-selector-button {
+      display: none; /* Hide the 'Choose File' button on Firefox */
+    }
+    #nand::-webkit-file-upload-button {
+      display:none; 
+      text-align: center;/* Hide the default 'Choose File' button on WebKit browsers */
+      color:white;
+    }
+    #nand::file-selector-button {
+      display: none; /* Hide the 'Choose File' button on Firefox */
+    }
+    #nandy::-webkit-file-upload-button {
+      display:none; 
+      text-align: center;/* Hide the default 'Choose File' button on WebKit browsers */
+      color:white;
+    }
+    #nandy::file-selector-button {
+      display: none; /* Hide the 'Choose File' button on Firefox */
+    }
+  };
+  
